@@ -20,7 +20,7 @@ public class TransactionParticipant {
     }
 
     public boolean isReady(){
-        if (Math.random() > 0.1) {
+        if (Math.random() > 0.09) {
             System.out.println(this.name + ": Ready");
             this.ready = true;
         } else {
